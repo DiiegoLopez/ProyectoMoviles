@@ -43,6 +43,11 @@ void Server::processTextMessage(QString message)
     qDebug() << "De:" << pClient << "Mensaje recibido:" << message;
 }
 
+void Server::validaXml()
+{
+
+}
+
 
 void Server::socketDisconnected()
 {

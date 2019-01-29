@@ -25,6 +25,7 @@ private slots:
     void onNewConnection();
     void processTextMessage(QString message);
     void socketDisconnected();
+    void validaXml();
 
 private:
     QWebSocketServer *m_pWebSocketServer;

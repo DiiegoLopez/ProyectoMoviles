@@ -31,11 +31,13 @@ CONFIG += console
 SOURCES += \
         main.cpp \
     basedatos.cpp \
-    server.cpp
+    server.cpp \
+    cliente.cpp
 
 HEADERS += \
     basedatos.h \
-    server.h
+    server.h \
+    cliente.h
 
 FORMS += \
         mainwindow.ui

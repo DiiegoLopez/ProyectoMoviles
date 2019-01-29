@@ -1,6 +1,7 @@
 #include "basedatos.h"
 #include "server.h"
 #include <QApplication>
+#include<cliente.h>
 
 int main(int argc, char *argv[])
 {
@@ -9,6 +10,8 @@ int main(int argc, char *argv[])
     w.Conectar();
     Server *server = new Server(3344);
     QObject::connect(server, &Server::closed, &a, &QCoreApplication::quit);
+    cliente cl;
+
 
 
 
