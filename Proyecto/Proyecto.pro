@@ -9,6 +9,7 @@ QT       += core gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Proyecto
+TARGET = xml_dtd
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,6 +27,7 @@ QT += sql
 QT += websockets
 CONFIG += c++11
 CONFIG += console
+LIBS += -lxml2
 
 
 SOURCES += \
